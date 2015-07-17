@@ -103,7 +103,7 @@ namespace Microsoft.TeamFoundation.SDK
         // In this case, the sourceId is the ID of the user story that is on the parent side of the link, and
         // the targetId is the ID of the user story that is on the child side of the link. The links
         // are returned in depth-first order. This function recursively traverses the collection
-        // and the title of each user story. If the user story has no children, its estimation is also printed.
+        // and the title of each user story. If the user story has no children, its estimation is also printed. my second edit
         static int PrintTrees(WorkItemStore wiStore, WorkItemLinkInfo[] wiTrees, string prefix, int sourceId, int iThis)
         {
             int iNext = 0;
