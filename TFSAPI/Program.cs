@@ -23,7 +23,7 @@ namespace Microsoft.TeamFoundation.SDK
                 TfsConfigurationServer configurationServer =
                     TfsConfigurationServerFactory.GetConfigurationServer(new Uri("https://minacs.visualstudio.com"));
 
-                // Get the catalog of team project collections
+                // Get the catalog of team project collections - Clone Error
                 CatalogNode catalogNode = configurationServer.CatalogNode;
                 ReadOnlyCollection<CatalogNode> tpcNodes = catalogNode.QueryChildren(
                     new Guid[] { CatalogResourceTypes.ProjectCollection }, false, CatalogQueryOptions.None);
