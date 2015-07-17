@@ -28,7 +28,7 @@ namespace Microsoft.TeamFoundation.SDK
                 ReadOnlyCollection<CatalogNode> tpcNodes = catalogNode.QueryChildren(
                     new Guid[] { CatalogResourceTypes.ProjectCollection }, false, CatalogQueryOptions.None);
 
-                // Process each team project collection
+                // Process each team project collection. Suresh GIT Comment in the title
                 foreach (CatalogNode tpcNode in tpcNodes)
                 {
                     // Use the InstanceId property to get the team project collection
