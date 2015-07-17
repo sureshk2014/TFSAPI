@@ -19,6 +19,7 @@ namespace Microsoft.TeamFoundation.SDK
                 //     Server - the name of the server that is running the application tier for Team Foundation.
                 //     port - the port that Team Foundation uses. The default port is 8080.
                 //     vpath - the virtual path to the Team Foundation application. The default path is tfs.
+                // this is the commit
                 TfsConfigurationServer configurationServer =
                     TfsConfigurationServerFactory.GetConfigurationServer(new Uri("https://minacs.visualstudio.com"));
 
