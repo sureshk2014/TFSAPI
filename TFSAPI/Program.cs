@@ -38,7 +38,7 @@ namespace Microsoft.TeamFoundation.SDK
                     WorkItemStore wiStore = tpc.GetService<WorkItemStore>();
 
                     /*
-                    // FLAT LIST QUERY EXECUTION
+                    // FLAT LIST QUERY EXECUTION testing by raghu
                     Dictionary<string, string> values = new Dictionary<string, string>();
                     values.Add("project", "Aurora Reporting (New)");
                     values.Add("iterationpath", "Aurora Reporting (New)\\Sprint 18");
