@@ -71,7 +71,7 @@ namespace Microsoft.TeamFoundation.SDK
                     Console.WriteLine(" Query...." + wiQuery.QueryString);
                     WorkItemLinkInfo[] wiTrees = wiQuery.RunLinkQuery();
 
-                    // Print the trees of user stories, with the estimated sizes of each leaf
+                    // Print the trees of user stories, with the estimated sizes of each leaf node
                     PrintTrees(wiStore, wiTrees, "    ", 0, 0);
                     
                    
